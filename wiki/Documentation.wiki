@@ -23,11 +23,10 @@ m.click(500, 300, 1)
 
 Requirements:
 
-* objc(Mac only)
-* ctypes(Windows only)
-* XTest(Unix, included)
+  * objc(Mac only)
+  * ctypes(Windows only)
+  * XTest(Unix, included)
 
 Known bugs:
 
-* Button 2 and 3 are unreliable across different systems.
-* More...
+  * Button 2 and 3 are unreliable across different systems.
