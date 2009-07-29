@@ -1,0 +1,32 @@
+Since this is a very simple module, here is the very simple documentation.
+
+= Introduction =
+
+To use this plugin put the python filen and the dynamic library somewhere on the python path.
+The next example illustrates basic usage:
+
+{{{
+# import the module
+from pymouse import PyMouse
+
+# instantiate an mouse object
+m = PyMouse()
+
+# move the mouse to int x and int y (these are absolute positions)
+m.move(200, 200)
+
+# click works about the same, except for int button possible values are 1: left, 2: right, 3: middle
+m.click(500, 300, 1)
+}}}
+
+= Details =
+
+Requirements:
+
+* objc(Mac only)
+* ctypes(Windows only)
+* XTest(Unix, included)
+
+Known bugs:
+
+* Button 2 and 3 are unreliable across different systems.
