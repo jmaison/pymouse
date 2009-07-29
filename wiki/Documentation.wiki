@@ -2,7 +2,7 @@ Since this is a very simple module, here is the very simple documentation.
 
 = Introduction =
 
-To use this plugin put the python filen and the dynamic library somewhere on the python path.
+To use this plugin put the python file and the dynamic library somewhere on the python path.
 The next example illustrates basic usage:
 
 {{{
@@ -30,3 +30,4 @@ Requirements:
 Known bugs:
 
 * Button 2 and 3 are unreliable across different systems.
+* More...
